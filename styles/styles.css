@@ -103,6 +103,13 @@ body {
 
 /* planning section */
 
+.plans{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .plan-goal-section{
    height: 80vh;
    width: 80%;
@@ -119,10 +126,11 @@ font-weight: 700;
 
 .skill-to-learn-container{
   padding-top: 90px;
-  padding-right: 60px;
+  /* padding-right: 60px; */
   display: flex;
   justify-content: space-around;
-  text-align: center;
+  gap: 150px;
+  /* text-align: center; */
 }
 .call-now-container{
   height: 300px;
@@ -130,8 +138,8 @@ font-weight: 700;
   background-image: url("../images/gradient1.png"), url(../images/watch.png);
   background-position: center;
   background-repeat: no-repeat;
-  padding-left: 140px;
-  padding-top: 300px;
+  padding-top: 250px; 
+
   
 }
 .call-now-container{
@@ -141,9 +149,14 @@ font-weight: 700;
   padding-bottom: 159px;
 }
 .call-now-tile{
+  padding-left: 60px;
   color: #FFF;
 font-size: 40px;
 font-weight: 700;
+}
+.call-now-button{
+  padding-left: 20px;
+  margin-left: 60px;
 }
 
 /* footer styling */
